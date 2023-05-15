@@ -1,0 +1,5 @@
+<h1>{{title}}</h1>
+<button class="myButton" (click)="visibleClic()"> View</button>
+
+<button *ngIf="isAdmin" [ngStyle]="{backgroundColor:isAdmin ? 'red' : 'yellow'}">Edit</button>
+
